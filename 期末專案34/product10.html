@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SO-7E SO-1</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/pruduct.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script src="js/product.js"></script>
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<body>
+  <!--標頭-->
+  <header>
+    <div id="Header">
+      <div id="menu-wrapper">
+        <nav>
+          <ul>
+            <li class="sub-menu-parent" tab-index="0">
+              <a href="index.html" class="icon_c"><img class="index_title" src="img/title-img/title.jpg"
+                  style="height: 130px; width: 150px;"></a>
+            </li>
+            <li class="sub-menu-parent" tab-index="0">
+              <a href="test.html">商品</a>
+            </li>
+            <li class="sub-menu-parent" tab-index="0">
+              <a href="#">安全帽</a>
+              <ul class="sub-menu">
+                <li><a href="test1.html">全罩式安全帽</a></li>
+                <li><a href="test2.html">半罩式安全帽</a></li>
+              </ul>
+            </li>
+            <li class="sub-menu-parent" tab-index="0">
+              <a href="#">裝備</a>
+              <ul class="sub-menu">
+                <li><a href="test3.html">手套</a></li>
+                <li><a href="text4.html">背包</a></li>
+              </ul>
+            </li>
+            <li class="sub-menu-parent" tab-index="0">
+              <a href="aboutus.html">關於我們</a>
+            <li><a href="log.html" target="_blank"><i class="fa fa-user"></i></a></li>
+            <li><a href="buy.html" target="_blank"><i class="fa fa-shopping-cart"></i></a></li>
+            <li class="wrap">
+              <div class="search">
+                <input class="search-bar" type="text" name="search" id="search" placeholder="輸入名稱">
+                <button class="search-btn"><i class="fa fa-search"></i></button>
+              </div>
+            </li>
+            </li>
+
+
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+  </header>
+  <article>
+    <div class="purchase">
+      <img src="img/product-img/pd3.jpg" class="pimage">
+      <div class="ptext">
+        <font class="ptitle">SO-7E SO-1</font>
+        <hr>
+        <font class="price">NT$590 </font><span style="color:gray;text-decoration:line-through">NT$900</span>
+        <p style="color:gray;font-size: small;">全店，消費滿千免運費(台灣地區)</p>
+        <label for="color">樣式</label><br>
+        <select name="color">
+          　<option value="BBlue">黑藍</option>
+          　<option value="BSliver">黑銀</option>
+          　<option value="BRed">藍紅</option>
+          　<option value="Sgray">銀灰</option>
+        </select><br>
+        <label for="size">尺寸</label><br>
+        <select name="size">
+          　<option value="BBlue">S</option>
+          　<option value="BSliver">M</option>
+          　<option value="BRed">L</option>
+          　<option value="Sgray">XL</option>
+        </select><br>
+        <label for="sum">數量:</label>
+        <input type="number" class="num" placeholder="1" step="1" min="0" max="100"><br>
+
+        <button type="Purchase" class="btn">加入購物車</button>
+
+      </div>
+    </div>
+    <!--詳細商品內容-->
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'describe')">商品描述</button>
+      <button class="tablinks" onclick="openCity(event, 'pay')">送貨及付款方式</button>
+      <button class="tablinks" onclick="openCity(event, 'evaluate')">顧客評價</button>
+    </div>
+
+    <div id="describe" class="tabcontent">
+      <h2>商品描述</h2>
+      <img src="img/product-describe/helmet.jpg" class="phdescribe">
+      <img src="img/product-describe/shopping notice.jpg" class="phdescribe">
+    </div>
+
+    <div id="pay" class="tabcontent">
+      <h2>送貨及付款方式</h2>
+      <font style="text-decoration:underline;font-size:20px;">送貨方式</font>
+      <p>family 取貨付款 </p>
+      <p>family 取貨不付款 (C2C)</p>
+      <p>黑貓宅配</p>
+      <p>到門市取貨</p>
+      <p>郵寄到府</p>
+      <font style="text-decoration:underline;font-size:20px;">付款方式</font>
+      <p>線上轉帳/網路ATM (可享有2%折扣)</p>
+      <p>香港匯豐銀行轉帳 (可享有2%折扣)</p>
+      <p>信用卡（支援Visa, Master, JCB）</p>
+      <p>信用卡3期分期付款（僅支援台灣部分銀行發行之信用卡）</p>
+      <p>信用卡6期分期付款（僅支援台灣部分銀行發行之信用卡）</p>
+      <p>family取貨付款</p>
+    </div>
+
+    <div id="evaluate" class="tabcontent">
+      <h2>顧客評價</h2>
+      <div style="width:100%;height:120px">
+        <img src="img/icon/client.png" class="imgevaluate"><br>
+        <p style="color:gray;font-size: small;">2020/12/1
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span></p>
+        很好用之後會再回購!!<br>
+      </div>
+      <div style="width:100%;height:100px">
+        <img src="img/icon/client.png" class="imgevaluate"><br>
+        <p style="color:gray;font-size: small;">2020/12/1
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span></p>
+        材質跟外觀都很棒!<br>
+      </div>
+      <font style="text-decoration:underline;font-size:20px;line-height:70px;">您的評價</font><br>
+      <input type="radio" name="star" value="1">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+      <input type="radio" name="star" value="2">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+      <input type="radio" name="star" value="3">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+      <input type="radio" name="star" value="4">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <input type="radio" name="star" value="5">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span><br>
+
+      <textarea placeholder="Enter your comment" name="say"
+        style="height:200px;width:50%;padding: 20px 10px; background-color:#f1f1f1;border: none;margin-top: 10px;"></textarea><br>
+      <button type="sent" class="btnsent">送出</button>
+    </div>
+  </article>
+</body>
+<footer>
+  copyright © 2020
+</footer>
+
+</html>

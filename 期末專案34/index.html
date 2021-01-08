@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>安全帽HMS|首頁</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <div id="Header">
+      <div id="menu-wrapper">
+        <nav>
+          <ul>
+            <li class="sub-menu-parent" tab-index="0">
+              <a href="index.html" class="icon_c"><img class="index_title" src="img/title-img/title.jpg"
+                  style="height: 130px; width: 150px;"></a>
+            </li>
+            <li class="sub-menu-parent" tab-index="0">
+              <a href="test.html">商品</a>
+            </li>
+            <li class="sub-menu-parent" tab-index="0">
+              <a href="#">安全帽</a>
+              <ul class="sub-menu">
+                <li><a href="test1.html">全罩式安全帽</a></li>
+                <li><a href="test2.html">半罩式安全帽</a></li>
+              </ul>
+            </li>
+            <li class="sub-menu-parent" tab-index="0">
+              <a href="#">裝備</a>
+              <ul class="sub-menu">
+                <li><a href="test3.html">手套</a></li>
+                <li><a href="text4.html">背包</a></li>
+              </ul>
+            </li>
+            <li class="sub-menu-parent" tab-index="0">
+              <a href="aboutus.html">聯絡我們</a></li>
+            <li><a href="log.html" target="_blank"><i class="fa fa-user"></i></a></li>
+            <li><a href="buy.html" target="_blank"><i class="fa fa-shopping-cart"></i></a></li>
+            <li class="wrap">
+              <div class="search">
+                <input class="search-bar" type="text" name="search" id="search" placeholder="輸入名稱">
+                <button class="search-btn"><i class="fa fa-search"></i></button>
+              </div>
+            </li>
+
+
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+  </header>
+  <marquee bgcolor="red" onMouseOver="this.stop()" onMouseOut="this.start()" direction="right" height="70"
+      behavior="alternate">
+      <h1 style="color:white">即日起在網路上面下單購買，享85折優惠!</h1>>
+    </marquee>
+  <article>
+    <!--幻燈片-->
+    <div class="slideshow-container">
+      <div class="mySlides fade"><img src="img/bg-img/bg1.jpg" style="width:100%"></div>
+      <div class="mySlides fade"><img src="img/bg-img/bg2.jpg" style="width:100%"></div>
+      <div class="mySlides fade"><img src="img/bg-img/bg3.jpg" style="width:100%"></div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <script src="js/slideshow.js"></script>
+    <!--排行榜-->
+    <div class="middle">
+      <div class="title_rank" style="text-align:center;">
+        排行榜
+        <hr class="style-two">
+      </div>
+      <div class="ranks">
+        <h2 class="rank rank"><img src="img/product-img/pd1.jpg">
+          <hr />#1 防水手套 <br>
+          <button onclick="location.href='product5.html'">see more</button>
+        </h2>
+        <h2 class="rank rank"><img src="img/product-img/pd2.jpg">
+          <hr />#2 全罩式安全帽<br>
+          <button onclick="location.href='product2.html'">see more</button>
+        </h2>
+        <h2 class="rank rank"><img src="img/product-img/pd3.jpg">
+          <hr />#3 騎士包<br>
+          <button onclick="location.href='product10.html'">see more</button>
+        </h2>
+      </div>
+    </div>
+    <!--產品類別-->
+    <div class="title_rank" style="text-align:center;">商品類別
+      <hr class="style-two">
+    </div>
+    <div class="product_div">
+      <div class="card1">
+        <a href="test1.html"><img class="product_img1" src="img/product-img/pd4.jpg" alt="">
+          <div class="info">
+            <p style="color:white;font-weight: bolder;">全罩式安全帽</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="card1">
+        <a href="test2.html"><img class="product_img1" src="img/product-img/pd5.jpg">
+          <div class=" info">
+            <p style="color:white;font-weight: bolder;">半罩式安全帽</p>
+          </div>
+        </a>
+      </div>
+
+      <div class=" card1">
+        <a href="text4.html"><img class="product_img1" src="img/product-img/pd6.jfif" alt="">
+          <div class="info">
+            <p style="color:white;font-weight: bolder;">騎士包</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="card1">
+        <a href="test3.html"><img class="product_img1" src="img/product-img/pd7.jfif" alt="">
+          <div class="info">
+            <p style="color:white;font-weight: bolder;">手套</p>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </article>
+  <footer>
+    copyright © 2020
+  </footer>
+
+
+
+</body>
+
+</html>
