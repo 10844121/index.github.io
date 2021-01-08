@@ -1,0 +1,107 @@
+/*客服中心*/
+* {
+  box-sizing: border-box;
+}
+
+article {
+  left: 20%;
+}
+
+.titleme {
+  color: black;
+  text-align: center;
+  line-height: 200px;
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+
+.container {
+  position: absolute;
+  left: 50%;
+  margin: 20px;
+  max-width: 600px;
+  padding: 16px;
+  background-color: white;
+}
+
+.textn {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.textn:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.btn {
+  background-color: #021402;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  color: black;
+  background-color: #fff;
+  border: 2px black solid;
+  opacity: 1;
+}
+
+/*個人介紹*/
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.image {
+  float: left;
+  width: 300px;
+  height: 300px;
+}
+
+.imgphoto {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin: 20px;
+  float: left;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.imgphoto:hover .overlay {
+  opacity: 1;
+}

@@ -1,0 +1,123 @@
+.col-11 {
+	position: absolute;
+	float: left;
+	left: 650px;
+	top: 200px;
+	border: dashed;
+	height: 700px;
+	background-color: #DEDEBE;
+	border-radius: 25px;
+}
+
+.title {
+	position: relative;
+	top: 80px;
+	left: 250px;
+	color: black;
+	font-family: 微軟正黑體;
+	font-size: 25px;
+}
+
+.title1 {
+	position: relative;
+	top: 40px;
+	left: 200px;
+	color: black;
+	font-family: 微軟正黑體;
+	font-size: 25px;
+}
+
+.text {
+	position: relative;
+	top: 120px;
+	left: 250px;
+	color: black;
+	font-family: 微軟正黑體;
+	font-size: 18px;
+}
+
+.text1 {
+	position: relative;
+	top: 150px;
+	left: 250px;
+	color: black;
+	font-family: 微軟正黑體;
+	font-size: 20px;
+}
+
+.cartnext {
+	position: relative;
+	left: 620px;
+	top: 60px;
+	width: 250px;
+}
+
+.cartnext1 {
+	position: relative;
+	left: 650px;
+	top: 40px;
+	width: 250px;
+}
+
+.cartnext2 {
+	position: relative;
+	left: 150px;
+	top: 40px;
+	width: 250px;
+}
+
+.b1 {
+	border-radius: 10px;
+	color: white;
+	background: #AD5A5A;
+	padding: 5px;
+}
+
+.b2 {
+	border-radius: 15px;
+	color: white;
+	background: #4f6e9d;
+	padding: 8px;
+}
+
+td {
+	padding: 8px;
+	text-align: center;
+}
+
+.td1 {
+	width: 21cm;
+	text-align: left;
+	font-weight: bolder;
+}
+
+.td2 {
+	color: red;
+	font-weight: bolder;
+	font-size: 23px;
+}
+
+hr {
+	position: relative;
+	top: 35px;
+	border: 1px solid;
+}
+
+form {
+	position: relative;
+	top: 80px;
+	left: 15px;
+	color: black;
+	font-family: 微軟正黑體;
+	font-size: 22px;
+	font-weight: bolder;
+}
+
+.box {
+	border-radius: 5px;
+	padding: 3px;
+}
+
+table {
+	width: 1440px !important;
+}
